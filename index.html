@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Savings Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <h1>Savings Calculator</h1>
+
+    <label for="age">Employee Age:</label>
+    <input type="number" id="age" placeholder="Enter age" required />
+    <br />
+
+    <label for="stopAge">Stop Saving at Age:</label>
+    <input type="number" id="stopAge" placeholder="Enter stop age" required />
+    <br />
+
+    <label for="salary">Starting Salary:</label>
+    <input type="number" id="salary" placeholder="Enter salary" required />
+    <br />
+
+    <label for="savingsPercentage">Savings Percentage:</label>
+    <input type="number" id="savingsPercentage" placeholder="Enter savings percentage" required />
+    <br />
+
+    <label for="raisePercentage">Annual Salary Raise Percentage:</label>
+    <input type="number" id="raisePercentage" placeholder="Enter raise percentage" required />
+    <br />
+
+    <button onclick="calculateSavings()">Calculate Savings</button>
+
+    <div id="result"></div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
